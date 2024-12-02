@@ -222,7 +222,7 @@ const Footer = () => {
                 />
 
                 {/* Submit Button */}
-                <Button type="submit" className="w-full bg-brownC text-white">
+                <Button type="submit" className="w-full bg-brownC text-blackC">
                   Jetzt Senden
                 </Button>
               </form>
@@ -257,7 +257,7 @@ const Footer = () => {
 
 
         {/* Footer Links */}
-        <div className="w-full bg-brownC text-white py-4 text-center">
+        <div className="w-full bg-brownC text-blackC py-4 text-center">
           <p className="text-sm">
             ©Ayhan Kublay Permanent Make up |{" "}
             <Link href="/impressum" className="underline">

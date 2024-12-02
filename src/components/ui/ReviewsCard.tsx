@@ -10,7 +10,7 @@ export default function ReviewsCard({ name, text, stars }: Review) {
 
   return (
     <Card
-      className={`bg-softWhiteC shadow-lg rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 cursor-pointer hover:shadow-xl flex flex-col ${
+      className={`bg-champagneC shadow-lg rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 cursor-pointer hover:shadow-xl flex flex-col ${
         isExpanded ? "h-[300px]" : "h-[250px]"
       }`}
     >
@@ -32,7 +32,7 @@ export default function ReviewsCard({ name, text, stars }: Review) {
 
         {/* Review Text */}
         <div
-          className={`text-sm bg-softWhiteC text-blackC transition-all duration-300 ${
+          className={`text-sm text-blackC transition-all duration-300 ${
             isExpanded ? "line-clamp-none" : "line-clamp-5"
           } flex-grow`}
         >
@@ -49,8 +49,8 @@ export default function ReviewsCard({ name, text, stars }: Review) {
       </CardContent>
 
       {/* Card Footer */}
-      <CardFooter className="p-4 border-t h-12 flex items-center">
-        <p className="text-brownC italic">{name}</p>
+      <CardFooter className="bg-softWhiteC p-4 border-t h-12 flex items-center">
+        <p className="text-champagneC italic">{name}</p>
       </CardFooter>
     </Card>
   );

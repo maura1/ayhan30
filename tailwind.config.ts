@@ -35,9 +35,9 @@ const tailwindConfig: Config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         blackC: "#201a1e",
-        brownC: "#d0b49f",
+        brownC: "#e0d9d3",
         pewterC: "#e2e6e7",
-        champagneC: "#e4d4c8",
+        champagneC: "#d4ccc7",
         softWhiteC: "#f8f4ff",
         card: {
           DEFAULT: "hsl(var(--card))",
