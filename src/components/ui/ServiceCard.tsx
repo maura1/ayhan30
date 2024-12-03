@@ -12,7 +12,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) =
   return (
     <Link
       href="/"
-      className="outline-0  focus:ring-2 hover:ring-2 ring-navbarText transition duration-300 rounded-lg block"
+      className="outline-0  focus:ring-2 hover:ring-2 ring-navbarText transition duration-300 rounded-lg block ring-1 ring-slate-900/5"
     >
       <Card className="bg-whiteBg rounded-lg shadow-lg overflow-hidden">
         <div

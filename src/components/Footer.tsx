@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { User, Mail, Phone, Pen } from "lucide-react";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-// Define the type for form data
+
 interface FormData {
   name: string;
   email: string;
@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <Container>
    
-      <div className="bg-whiteBg px-48 py-12">
+      <div className="bg-pewterC px-48 py-12">
         {/* Header Section */}
         <div className="relative text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-medium text-blackC">Kontakt</h1>
@@ -94,14 +94,14 @@ const Footer = () => {
                     />
                   </div>
                   {/* Text */}
-                  <span className="ml-16 text-white text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
+                  <span className="ml-16 text-blackC text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
                     Folge mich auf Instagram
                   </span>
                 </div>
               </Link>
               {/* WhatsApp Icon */}
               <Link
-                href="https://wa.me/017643497926"
+                href="https://wa.me/015111553031"
                 passHref
                 className="group flex items-center w-fit hover:opacity-80 transition-opacity"
                 aria-label="WhatsApp"
@@ -118,7 +118,7 @@ const Footer = () => {
                     />
                   </div>
                   {/* Text */}
-                  <span className="ml-16 text-white text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
+                  <span className="ml-16 text-black text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap ">
                     Chat per WhatsApp starten
                   </span>
                 </div>
@@ -222,7 +222,7 @@ const Footer = () => {
                 />
 
                 {/* Submit Button */}
-                <Button type="submit" className="w-full bg-brownC text-blackC">
+                <Button type="submit" className="w-full bg-brownC text-blackC hover:bg-blackC hover:text-softWhiteC">
                   Jetzt Senden
                 </Button>
               </form>
@@ -262,13 +262,14 @@ const Footer = () => {
             ©Ayhan Kublay Permanent Make up |{" "}
             <Link href="/impressum" className="underline">
               Impressum
-            </Link>{" "}
+            </Link>
+              
             |{" "}
             <Link href="/datenschutz" className="underline">
               Datenschutz
             </Link>{" "}
             |{" "}
-            <Link href="/cookie-einstellung" className="underline">
+            <Link href="/cookie" className="underline">
               Cookie-Einstellung
             </Link>
           </p>

@@ -34,7 +34,7 @@ const PriceList = () => {
 
 
         {/* Accordion Section */}
-        <div className="relative w-full max-w-3xl z-10 bg-champagneC rounded-lg shadow-lg px-4 ">
+        <div className="relative w-full max-w-3xl z-10 bg-champagneC rounded-lg shadow-lg  px-4 ">
           <Accordion type="single" collapsible className="space-y-4">
             {Object.keys(priceData).map((section) => (
               <AccordionItem key={section} value={section}>

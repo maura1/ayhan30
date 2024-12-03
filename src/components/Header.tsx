@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-blackC shadow-md mx-auto w-full ">
-      <div className="flex items-center justify-between py-5 px-4 md:px-6 lg:px-4 text-softWhiteC">
+      <div className="flex items-center justify-between py-5 px-4 md:px-6 lg:px-4 xl:px-8 text-softWhiteC">
         {/* Logo */}
 <Link href="/" passHref>
   <div className="relative group">
@@ -45,7 +45,7 @@ const Header = () => {
 
 
         {/* Navigation */}
-        <nav className="hidden lg:flex flex-grow lg:text-sm  justify-center items-center space-x-6  ">
+        <nav className="hidden lg:flex flex-grow lg:text-sm  justify-center items-center space-x-6  xl:space-x-8">
           {routes.map((route) => (
             <Link
               key={route.href}
@@ -65,7 +65,7 @@ const Header = () => {
         {/* Right-Side Content */}
         <div className="flex items-center space-x-4 lg:space-x-2">
           {/* Phone Button */}
-          <div className=" flex items-center bg-gradient-to-r from-brownC to-champagneC text-white rounded px-4 py-2 shadow-lg hover:outline hover:outline-softWhiteC  transition duration-300 ease-in-out">
+          <div className=" flex items-center bg-gradient-to-r from-brownC to-champagneC text-white xl:text-base rounded px-4 py-2 shadow-lg hover:outline hover:outline-softWhiteC  transition duration-300 ease-in-out">
             <Phone className="h-6 w-6  text-white mr-2" />
             <span className="text-lg font-semibold lg:text-sm">-0151-1155 30 31</span>
           </div>

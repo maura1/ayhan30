@@ -6,9 +6,10 @@ const Datenschutz = () => {
   return (
     <>
     <Container>
-      <div className="bg-whiteBg px-48 py-12">
-
-
+      <div className="bg-softWhiteC px-48 py-12">
+ <div className="relative text-center mb-12">
+          <h1 className="text-3xl md:text-4xl font-medium text-blackC">Datenschutz</h1>
+          </div>
       <p>
         Telefon: <span>0151-1155 30 31</span>
       </p>
