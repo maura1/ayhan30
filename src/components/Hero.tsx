@@ -10,6 +10,10 @@ export default function Hero() {
           className="absolute inset-0 bg-cover bg-center"
         >
           <div className="absolute inset-0 bg-black opacity-30"></div>
+          <div className="absolute top-4 left-4">
+  
+</div>
+
         </div>
 
         {/* Hero Text */}
@@ -18,25 +22,18 @@ export default function Hero() {
           <div className="relative">
             {/* Decorative Text */}
             <span
-              className="absolute deco-text"
-              style={{                
-                top: '-50px', // Offset slightly above
-                left: '0', // Align with the main text
-                transform: 'translate(0, 0)', // Fine-tune as needed
-                pointerEvents: 'none', // Avoid blocking interactions
-              }}
+              className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px] lg:top-[-50px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap"         
             >
               Natürliche Schönheit
             </span>
-
-            <h1 className="relative z-20 text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium text-white sm:pl-24">
+            <h1 className="relative z-20 text-2xl sm:text-4xl  font-medium text-softWhiteC sm:pl-24">
               Willkommen bei
             </h1>
           </div>
 
           {/* Subheading */}
-          <h2 className="relative z-20 text-pretty md:text-2xl lg:text-3xl md:pl-40 sm:pl-24 pb-12 text-white">
-            <span >Ayhan Kublay</span> Permanent Makeup Artist
+          <h2 className="relative z-20 text-xl md:text-2xl lg:text-2xl md:pl-40 sm:pl-24 pb-12 text-white">
+            Ayhan Kublay Permanent Makeup Artist
           </h2>
         </div>
       </div>

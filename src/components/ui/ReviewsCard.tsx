@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from "react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Review } from "@/types";
@@ -10,12 +11,12 @@ export default function ReviewsCard({ name, text, stars }: Review) {
 
   return (
     <Card
-      className={`bg-champagneC shadow-lg rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 cursor-pointer hover:shadow-xl flex flex-col ${
+      className={`bg-softWhiteC shadow-lg rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 cursor-pointer hover:shadow-xl flex flex-col ${
         isExpanded ? "h-[300px]" : "h-[250px]"
       }`}
     >
       {/* Card Content */}
-      <CardContent className="p-4 flex flex-col flex-grow">
+      <CardContent className="p-4 flex flex-col flex-grow bg-champagneC">
         {/* Star Rating */}
         <div className="flex justify-center space-x-1 mb-4">
           {Array.from({ length: stars }).map((_, index) => (
@@ -32,7 +33,7 @@ export default function ReviewsCard({ name, text, stars }: Review) {
 
         {/* Review Text */}
         <div
-          className={`text-sm text-blackC transition-all duration-300 ${
+          className={`text-sm bg-champagneC text-blackC transition-all duration-300 ${
             isExpanded ? "line-clamp-none" : "line-clamp-5"
           } flex-grow`}
         >
@@ -49,7 +50,7 @@ export default function ReviewsCard({ name, text, stars }: Review) {
       </CardContent>
 
       {/* Card Footer */}
-      <CardFooter className="bg-softWhiteC p-4 border-t h-12 flex items-center">
+      <CardFooter className="p-4 border-t h-12 flex items-center">
         <p className="text-champagneC italic">{name}</p>
       </CardFooter>
     </Card>

@@ -1,44 +1,31 @@
 import React from 'react';
-import ServiceCard from '@/components/ui/ServiceCard'
-import services from '@/components/ui/services' 
-import Container from '@/components/ui/container'
+import ServiceCard from '@/components/ui/ServiceCard';
+import services from '@/components/ui/services';
+import Container from '@/components/ui/container';
 
 const ServiceList: React.FC = () => {
   return (
-    <Container>      
+    <Container>
+      <div className="relative bg-pewterC pt-64 pb-12">
+        <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>
 
-
-  <div className="relative bg-pewterC pt-64 pb-12 px-48">
-  <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>  
-
-<div className="relative z-10">
-  <div className="relative flex justify-center mb-8">
-    <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-medium text-blackC">Behandelung</h1>
-<span
-              className="absolute deco-text"
-              style={{                
-                top: '-55px', // Offset slightly above
-                left: '50%', // Align with the main text
-                transform: 'translate(-50%)', // Fine-tune as needed
-                pointerEvents: 'none', // Avoid blocking interactions
-              }}
-            >
-             Individualität
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative flex flex-col items-center text-center mb-8">
+            <h1 className="text-2xl sm:text-3xl  font-medium text-blackC z-50">
+              Behandlung
+            </h1>
+            <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
+              Individualität
             </span>
-
-  </div>
-  <div className="space-y-5">
-    {services.map((service, index) => (
-      <ServiceCard key={service.id} data={service} imageRight={index % 2 !== 0} />
-    ))}
-  </div>
-</div>
-</div>
-
-
-       
-      
+          </div>
+          <div className="space-y-5">
+            {services.map((service, index) => (
+              <ServiceCard key={service.id} data={service} imageRight={index % 2 !== 0} />
+            ))}
+          </div>
+        </div>
+      </div>
     </Container>
   );
 };
-export default ServiceList
+export default ServiceList;

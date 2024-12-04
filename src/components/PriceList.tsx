@@ -1,58 +1,41 @@
 "use client";
 
 import React from "react";
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"; // Import the accordion component
-import { priceData } from "@/components/ui/priceData"; // Import the price data
-import PriceItem from "@/components/ui/PriceItem"; // Import the PriceItem component
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { priceData } from "@/components/ui/priceData";
+import PriceItem from "@/components/ui/PriceItem";
 import Container from "@/components/ui/container";
 
 const PriceList = () => {
   return (
     <Container>
-      <div className="relative flex flex-col items-center justify-center py-12 bg-pewterC  ">
+      <div className="flex flex-col items-center justify-center py-12 bg-pewterC relative">
         {/* Background Noise */}
-        <div className="absolute inset-0 pointer-events-none bg-noise z-0 "></div>
+        <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>
 
         {/* Header Section */}
- <div className="relative flex flex-col items-center justify-center mb-8 z-10">
-  <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-medium text-blackC">
-    Preise
-  </h1>
-  <span
-    className="absolute deco-text whitespace-nowrap "
-    style={{
-      top: "-55px", // Adjust vertical position
-      left: "50%", // Center horizontally
-      transform: "translateX(-50%)", // Center align properly
-      pointerEvents: "none", // Prevent interaction
-    }}
-  >
-    Qualität
-  </span>
-</div>
-
-
+        <div className="z-10 mb-8 flex flex-col items-center justify-center relative">
+          <h1 className="text-2xl sm:text-3xl  font-medium text-blackC z-50">
+            Preise
+          </h1>
+           <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px] 
+            left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
+              Qualität
+            </span>
+        </div>
 
         {/* Accordion Section */}
-        <div className="relative w-full max-w-3xl z-10 bg-champagneC rounded-lg shadow-lg  px-4 ">
+        <div className="w-full max-w-3xl bg-champagneC rounded-lg shadow-lg px-4 relative z-10">
           <Accordion type="single" collapsible className="space-y-4">
             {Object.keys(priceData).map((section) => (
               <AccordionItem key={section} value={section}>
-                {/* Section Heading */}
-                <AccordionTrigger className="text-base font-semibold text-blackC hover:underline">
+                <AccordionTrigger className="py-2 text-lg font-semibold text-blackC hover:text-black">
                   {section} ({priceData[section].length})
                 </AccordionTrigger>
-
-                {/* Section Content */}
-                <AccordionContent>
+                <AccordionContent className="px-2 py-4">
                   <div className="space-y-4">
                     {priceData[section].map((item, index) => (
-                      <PriceItem
-                        key={index}
-                        title={item.title}
-                        description={item.description}
-                        price={item.price}
-                      />
+                      <PriceItem key={index} {...item} />
                     ))}
                   </div>
                 </AccordionContent>

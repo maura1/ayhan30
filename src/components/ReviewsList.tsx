@@ -1,4 +1,3 @@
-'use client';
 
 import {
   Carousel,
@@ -10,27 +9,15 @@ import {
 import ReviewsCard from '@/components/ui/ReviewsCard';
 import { reviews } from '@/components/ui/reviews';
 import Container from '@/components/ui/container';
-
-
 export default function ReviewsList() {
   return (
     <Container>   
-
       <div className=" px-8 py-14">
         <div className="relative flex justify-center mb-8">
-          <h1 className=" text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-medium text-blackC">Bewertungen</h1>
-          <span
-              className="absolute deco-text"
-              style={{                
-                top: '-55px', // Offset slightly above
-                left: '50%', // Align with the main text
-                transform: 'translate(-50%)', // Fine-tune as needed
-                pointerEvents: 'none', // Avoid blocking interactions
-              }}
-            >
+          <h1 className=" text-2xl sm:text-3xl md:text-3xl  font-medium text-blackC z-50">Bewertungen</h1>
+          <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px]  left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
               Meine Kunden
             </span>
-
         </div>
         <div className="py-8  rounded ">
           <Carousel
@@ -40,11 +27,11 @@ export default function ReviewsList() {
             className="w-full max-w-6xl mx-auto"
           >
             <CarouselPrevious  />
-            <CarouselContent className="flex gap-4">
+            <CarouselContent className="flex gap-4 ">
               {reviews.map((review) => (
                 <CarouselItem
                   key={review.id}
-                  className="w-full max-w-xs md:max-w-sm flex-shrink-0"
+                  className="w-full max-w-xs md:max-w-sm flex-shrink-0 "
                 >
                   <div className="rounded">
                     <ReviewsCard
@@ -75,3 +62,4 @@ export default function ReviewsList() {
     </Container>
   );
 }
+

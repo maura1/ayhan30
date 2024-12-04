@@ -38,38 +38,32 @@ const Footer = () => {
   return (
     <Container>
    
-      <div className="bg-pewterC px-48 py-12">
+      <div className="bg-pewterC  px-4 sm:px-12 md:px-24 lg:px-48 py-12 border ">
         {/* Header Section */}
-        <div className="relative text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-medium text-blackC">Kontakt</h1>
-          <span
-            className="absolute deco-text"
-            style={{
-              top: "-55px", // Offset slightly above
-              left: "50%", // Align with the main text
-              transform: "translate(-50%)", // Fine-tune as needed
-              pointerEvents: "none", // Avoid blocking interactions
-            }}
-          >
-            Mich erreichen
+       
+       <div className="relative text-center mb-12 ">
+          <h1 className="text-2xl sm:text-3xl  font-medium text-blackC z-50">Kontakt</h1>
+          <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-0 left-1/2 transform -translate-x-1/2 -translate-y-[35px] md:-translate-y-[50px] g:-translate-y-[60px] pointer-events-none text-scalable whitespace-nowrap">
+            Mich Erreichen
           </span>
         </div>
 
+
         {/* Main Content Section */}
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8 pt-4">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-8 pt-4 border ">
           {/* Left Section */}
-          <div className="md:w-1/2 pt-2">
-            <p className="text-xl mb-4">Terminabsprachen biete ich zu diesen Zeiten:</p>
-            <p className="text-md mb-4">Montag-Freitag von 10.00 - 18.00 Uhr</p>
-            <div className="text-lg py-4">
+          <div className="md:w-1/2 pt-2 ">
+            <p className="text-2xl mb-4">Terminabsprachen nach vereinbarung</p>
+            
+            <div className="text-lg py-4 ">
               {/* Phone Number */}
-              <div className="flex items-center mb-2">
-                <Phone className="w-5 h-5 mr-2 text-brownC" />
+              <div className="flex items-center  mb-2">
+                <Phone className="w-5 h-5 mr-2  text-blackC bg-champagneC" />
                 <p>0151-1155 30 31</p>
               </div>
               {/* Email Address */}
               <div className="flex items-center">
-                <Mail className="w-5 h-5 mr-2 text-brownC" />
+                <Mail className="w-5 h-5 mr-2 text-blackC bg-champagneC" />
                 <p>info@ayhankublay.de</p>
               </div>
             </div>
@@ -82,7 +76,7 @@ const Footer = () => {
                 className="group flex items-center w-fit hover:opacity-80 transition-opacity"
                 aria-label="Instagram"
               >
-                <div className="relative flex items-center w-14 h-14 rounded-full bg-brownC transition-all duration-300 group-hover:w-[250px] overflow-hidden">
+                <div className="relative flex items-center w-14 h-14 rounded-full bg-champagneC transition-all duration-300 group-hover:w-[250px] overflow-hidden">
                   {/* Icon */}
                   <div className="absolute left-0 top-0 flex items-center justify-center w-14 h-14">
                     <Image
@@ -101,12 +95,12 @@ const Footer = () => {
               </Link>
               {/* WhatsApp Icon */}
               <Link
-                href="https://wa.me/015111553031"
+                href="https://wa.me/4915111553031"
                 passHref
                 className="group flex items-center w-fit hover:opacity-80 transition-opacity"
                 aria-label="WhatsApp"
               >
-                <div className="relative flex items-center w-14 h-14 rounded-full bg-brownC transition-all duration-300 group-hover:w-[250px] overflow-hidden">
+                <div className="relative flex items-center w-14 h-14 rounded-full bg-champagneC transition-all duration-300 group-hover:w-[250px] overflow-hidden">
                   {/* Icon */}
                   <div className="absolute left-0 top-0 flex items-center justify-center w-14 h-14">
                     <Image
@@ -127,7 +121,7 @@ const Footer = () => {
           </div>
 
           {/* Right Section (Form) */}
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 + ">
             <h2 className="text-xl mb-4 text-center md:text-left">
               Ich stehe für alle Fragen jeder zeit zu Verfügung!
             </h2>
@@ -222,7 +216,7 @@ const Footer = () => {
                 />
 
                 {/* Submit Button */}
-                <Button type="submit" className="w-full bg-brownC text-blackC hover:bg-blackC hover:text-softWhiteC">
+                <Button type="submit" className="w-full bg-champagneC text-blackC hover:bg-blackC hover:text-softWhiteC">
                   Jetzt Senden
                 </Button>
               </form>
@@ -232,8 +226,8 @@ const Footer = () => {
 
         {/* Address Section */}
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 py-6">
-          <div className="md:w-1/2 pt-2 border">
-            <h3 className="pb-4">Adresse:</h3>
+          <div className="md:w-1/2 pt-2 text-xl">
+            <h3 className="pb-4 text-3xl">Adresse:</h3>
             <p>
               Frauenstr. 30a
               <br />
@@ -242,7 +236,7 @@ const Footer = () => {
               Germany
             </p>
           </div>
-          <div className="md:w-1/2 pt-2 border">
+          <div className="md:w-1/2 pt-2 border w-full">
             <iframe
               title="Google Maps Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.1058481539467!2d10.752353975507223!3d48.185312047837954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479c1e680b885885%3A0xe89c7fec055945c8!2sFrauenstra%C3%9Fe%2030A%2C%2086830%20Schwabm%C3%BCnchen!5e0!3m2!1sen!2sde!4v1732772802022!5m2!1sen!2sde"
@@ -257,7 +251,7 @@ const Footer = () => {
 
 
         {/* Footer Links */}
-        <div className="w-full bg-brownC text-blackC py-4 text-center">
+        <div className="w-full bg-champagneC text-blackC py-4 text-center">
           <p className="text-sm">
             ©Ayhan Kublay Permanent Make up |{" "}
             <Link href="/impressum" className="underline">

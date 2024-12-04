@@ -19,6 +19,16 @@ const tailwindConfig: Config = {
         "48": "48px",
         "36": "36px",
       },
+      spacing: {
+        '-30px': '-30px',
+        '-35px': '-35px',
+        '-40px': '-40px',
+        '-50px': '-50px',
+        '-55px': '-55px',
+        '-60px': '-60px',
+        '-70px': '-70px',
+        '-80px': '-80px',
+      },
       height: {
         custom: "200px",
       },
@@ -86,6 +96,13 @@ const tailwindConfig: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
     },
+     screens: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    '2xl': '1536px',
+  },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate"), require("tailwindcss-textshadow")],
