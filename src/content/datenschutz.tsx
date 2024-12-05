@@ -1,17 +1,17 @@
 
-import Container from "@/components/ui/container";
+
 import Link from "next/link";
 
 const Datenschutz = () => {
   return (
     <>
-    <Container>
-      <div className="bg-softWhiteC px-48 py-12">
+    
+      <div   className="bg-pewterC w-full ">
  <div className="relative text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-medium text-blackC">Datenschutz</h1>
+          <h1 className="text-6xl md:text-8xl font-medium text-blackC">Datenschutz</h1>
           </div>
       <p>
-        Telefon: <span>0151-1155 30 31</span>
+        Telefon: <span>0151-1155 3031</span>
       </p>
       <p className="mb-4">E-Mail: info@ayhankublay.de</p>
 
@@ -103,10 +103,9 @@ const Datenschutz = () => {
         <Link href="https://policies.google.com/privacy?hl=de">
           Datenschutzerklärung von Google
         </Link>
-        .
+        
       </p>
       </div>
-      </Container>
     </>
   );
 };

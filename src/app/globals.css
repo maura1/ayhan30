@@ -116,7 +116,7 @@
 
 body,html{
   width:100%;
-  overflow-x:hidden;
+  overflow:visible;
   margin:0;
   padding:0;
   width:100%;
@@ -162,6 +162,14 @@ body,html{
     opacity: 0.2;
     mix-blend-mode: overlay;
   }
+  .bg-noise-hero {
+    background-image: url("/images/serviceBg.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+  }
+  
  
 
 }

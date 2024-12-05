@@ -1,10 +1,10 @@
 import { Price } from "@/types";
 
-export const priceData: Record<string, Price[]> = {
-  Wimpernbehandlungen: [
+export const priceData:  Price[] = 
+ [
     {
       title: "WIMPERNLIFTING DELUXE INKL. FÄRBEN + KERATIN + EYE CARE",
-      description: "1:00 h.",
+      description: "1:00 h.",     
       price: "45,00 EUR",
     },
     {
@@ -17,8 +17,7 @@ export const priceData: Record<string, Price[]> = {
       description: "1:00 h.",
       price: "55,00 EUR",
     },
-  ],
-  Augenbraunbehandlungen: [
+  
     {
       title: "BROWLIFTING INKL. EXPERT SHAPE + FÄRBEN + BROW KERATİN",
       description: "1:00 h.",
@@ -33,21 +32,75 @@ export const priceData: Record<string, Price[]> = {
       title: "Augenbrauen zupfen nach goldenen Schnittpunkt",
       description: "45 min.",
       price: "17,00 EUR",
-    },
-  ],
-  PermanentMakeUp: [
+    },  
+    
     {
-      title: "Lidstrich oben",
-      description: "Fein pigmentierte Linie am oberen Wimpernkranz.",
+      title: "Microblading Härchenzeichnung Phibrows inkl. 1 Nachbehandlung",
+      description: `Mikrodermabrasion, (Mikro-)Dermabrasion 3:00 h`,
+      price: "450,00 EUR",
+    },
+    {
+      title: "Powder Brows  - Puderschattierung inkl. 1 Nachbehandlung",
+      description: "Green Peel Classic / Green Peel Energy 2.30 h",
       price: "390,00 EUR",
     },
-    // Add more services for this category...
-  ],
-  Harrentfernung: [
+    {
+      title: "Microblading oder Powderbrows 3 Nachbehandlung",
+      description: "Mikrodermabrasion /(Mikro-)Dermabrasion 1:00 h",
+      price: "80,00 EUR",
+    },
+    {
+      title: "Microblading / Powderbrows Auffrischung 1 Jahr oder länger",
+      description: "Mikrodermabrasion / JetPeel/Sauerstoffbehandlung 1:00 h",
+      price: "180.00 EUR",
+    },
+    
+    {
+      title: "SHADING EYELINER (Eyeliner mit Lidschatten Effekt )inkl. 1 Nachbehandlung",
+      description: "Green Peel Energy / Mikrodermabrasion 3.00 h",
+      price: "300,00 EUR",
+    },
+    {
+      title: "Eyeliner Pigmentierung | Wimpernkranzverdichtung inkl. 1 Nachbehandlung",
+      description: "Green Peel Classic / Green Peel Energy",
+      price: "250,00 EUR",
+    },
+    {
+      title: "Eyeliner Auffrischung",
+      description: "2.00 h",
+      price: "150,00 EUR",
+    },
+    {
+      title: "Lippenpigmentierung PowderLips inkl. 1 Nachbehandlung",
+      description: "3.00 h",
+      price: "390,00 h",
+    },
+    {
+      title: "Lippen/ PowderLips 3 Nachbehandlung",
+      description: "2:00 h",
+      price: "150,00 EUR",
+    },
+    {
+      title: "Lippenpigmentierung PowderLips Auffrischung nach 1 Jahr",
+      description: "2:00 h",
+      price: "300,00 EUR",
+    },
+    {
+      title: "Korrektur von Permanent Make Up Cover Up (Fremdarbeit)",
+      description: "2.30 h",
+      price: "350,00 EUR",
+    },
+    {
+      title: "Beratunsgespäch",
+      description: "30 min",
+      price: "30,00 EUR",
+    },
+   
+  
     {
       title: "Orientalische Fadentechnik",
       description: "45 min.",
       price: "20,00 EUR",
     },
-  ],
-};
+  ]
+

@@ -1,7 +1,9 @@
 const imagePaths = {
-    eyelashes:'/images/services/eyelashes.jpg',
-    eyes1:'/images/services/eyes1.jpg',
-    eyes2:'/images/services/eyes2.jpg',
-    lips1:'/images/services/lips1.jpg',
+    microblading:'/images/services/microblading.jpeg',
+    powderbrows:'/images/services/powderbrows.jpeg',
+    lidstrich:'/images/services/lidstrich.jpeg',
+    lippen:'/images/services/lippen.jpeg',
+    lashlifting:'/images/services/lashlifting.jpeg',
+    cover:'/images/services/cover.jpeg',
 }
 export default imagePaths

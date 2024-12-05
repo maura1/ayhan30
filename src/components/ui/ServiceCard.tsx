@@ -1,5 +1,6 @@
+'use client'
+import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Service } from "@/types";
 
@@ -9,10 +10,16 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleCardClick = () => {
+    setIsExpanded((prev) => !prev);
+  };
+
   return (
-    <Link
-      href="/"
-      className="outline-0 focus:ring-2 hover:ring-2 ring-navbarText transition duration-300 rounded-lg block ring-1 ring-slate-900/5"
+    <div
+      onClick={handleCardClick}
+      className="outline-0 focus:ring-2 hover:ring-2 ring-navbarText transition duration-300 rounded-lg block ring-1 ring-slate-900/5 cursor-pointer"
     >
       <Card className="bg-whiteBg rounded-lg shadow-lg overflow-hidden">
         <div
@@ -29,22 +36,30 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) =
               objectFit="cover"
               className="transition-transform duration-300 hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black opacity-30"></div>
           </div>
 
           {/* Content Section */}
-          <CardContent className="md:w-1/2 w-full p-6 flex flex-col justify-between">
-            <div className="space-y-2">
-              <p className="font-semibold text-lg text-navbarText underline">{data.name}</p>
-              <p className="text-sm text-navbarText line-clamp-3">{data.description}</p>
-            </div>
-            <p className="text-sm font-semibold mt-4 text-right text-navbarText">
-              mehr &gt;
-            </p>
-          </CardContent>
+    <CardContent className="md:w-1/2 w-full p-6 flex flex-col justify-between">
+  <div className="space-y-2">
+    <p className="font-semibold text-lg text-navbarText underline">
+      {data.name}
+    </p>
+    <p
+      className={`text-sm text-navbarText transition-all duration-300 ${
+        isExpanded ? "" : "line-clamp-6"
+      }`}
+      dangerouslySetInnerHTML={{
+        __html: data.description.replace(/\n/g, "<br />"),
+      }}
+    ></p>
+  </div>
+  <p className="text-sm font-semibold mt-4 text-right text-navbarText">
+    {isExpanded ? "Weniger anzeigen" : "Mehr anzeigen"} &gt;
+  </p>
+</CardContent>
         </div>
       </Card>
-    </Link>
+    </div>
   );
 };
 

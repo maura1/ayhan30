@@ -1,10 +1,10 @@
-import Datenschutz from "@/content/datenschutz"
 
+import Datenschutz from "@/content/datenschutz";
 
-export default function DatenschutzPage(){
+export default function DatenschutzPage() {
   return (
-  <>
-    <Datenschutz />
-  </>
-  )
+    <div className="px-48 py-12 bg-gray-100 ">
+      <Datenschutz />
+    </div>
+  );
 }
