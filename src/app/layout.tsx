@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsApp from "@/components/WhatsApp";
+import Instagram from "@/components/Instagram";
+
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -46,7 +48,10 @@ export default function RootLayout({
           <main>
             {children}
           </main>
+          <div className="flex flex-col fixed bottom-4 right-4 space-y-24 z-50">
           <WhatsApp />
+          <Instagram />
+          </div>
         </ThemeProvider>
       </body>
     </html>

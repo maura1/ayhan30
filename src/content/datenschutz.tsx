@@ -6,11 +6,12 @@ const Datenschutz = () => {
   return (
     <>
     
-      <div   className="bg-pewterC w-full ">
+      <div   className=" w-full ">
  <div className="relative text-center mb-12">
-          <h1 className="text-6xl md:text-8xl font-medium text-blackC">Datenschutz</h1>
+          <h2 className="text-6xl  font-bold md:text-8xl  text-blackC">Datenschutz</h2>
           </div>
       <p>
+        <h2 className="mb-4">Ayhan Kublay Permanent Make-Up</h2>
         Telefon: <span>0151-1155 3031</span>
       </p>
       <p className="mb-4">E-Mail: info@ayhankublay.de</p>

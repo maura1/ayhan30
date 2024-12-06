@@ -77,7 +77,7 @@ Mit der Eyeliner-Pigmentierung oder Wimpernkranzverdichtung erhältst du strahle
   {
     id: "5",  
     name: "Shading Eyeliner",   
-    images: [imagePaths.lippen],
+    images: [imagePaths.shadowEyeliner],
     description:`Shading Eyeliner – Der Eyeliner mit Lidschatten-Effekt
 
 Für einen ausdrucksstarken Look
@@ -98,13 +98,70 @@ Mit dem Shading Eyeliner erhältst du eine elegante und moderne Pigmentierung, d
     id: "6",  
     name: "Lashlifting",   
     images: [imagePaths.lashlifting],
-    description:"Die Augen sind das Fenster zu unserer Seele. Sie haben ihre eigene Sprache. Wir kommunizieren mit Ihnen ohne Worte und dennoch verstehen wir sie alle! Durch einen perfekten Lidstrich, egal ob natürlich oder dekorativ, können wir Ihren Ausdruck noch verstärken.",
+    description:`Was ist ein Wimpernlifting?
+
+Ein Wimpernlifting ist eine kosmetische Behandlung, bei der die natürlichen Wimpern für mehrere Wochen umgeformt werden, sodass sie länger und geschwungener erscheinen. Das Ergebnis ist ein natürlich aussehender Wimpernschwung, der die Augen öffnet und den Blick intensiviert.
+
+Welchen Effekt hat ein Wimpernlifting?
+
+Ein Wimpernlifting sorgt für längere und stärker geschwungene Wimpern. Das Ergebnis ist ein offenerer, wacher Blick, der die Wimpern optisch verlängert. Im Gegensatz zur Verwendung einer Wimpernzange hält der Wimpernschwung mehrere Wochen an, ohne dass die Wimpern abbrechen oder beschädigt werden.
+
+Wie läuft ein Wimpernlifting ab?
+
+Das Wimpernlifting dauert zwischen 45 und 60 Minuten. Während dieser Zeit werden speziell abgestimmte Wimpernlotionen auf die Wimpern aufgetragen, die sie umformen und in Schwung bringen. Zusätzlich werden die Wimpern gefärbt, was das Ergebnis noch intensiver macht.
+
+Wie lange hält ein Wimpernlifting?
+
+Das Ergebnis eines Wimpernliftings hält je nach Beschaffenheit der Wimpern 4 bis 6 Wochen. Die Wimpernfarbe kann jedoch etwas schneller verblassen. Die Haltbarkeit hängt von individuellen Faktoren wie Wimpernwachstumszyklus und Hautpflege ab.
+
+Was muss nach einem Wimpernlifting beachtet werden?
+
+Um das bestmögliche Ergebnis zu erzielen, sollten nach der Behandlung folgende Punkte beachtet werden:
+
+Vor der Behandlung:
+
+Keine Augencreme am Behandlungstag auftragen.
+Unbeschminkte Wimpern mitbringen.
+Keine alte Wimpernverlängerung vorhanden sein.
+Bei geschädigten Wimpern bitte vorher Rücksprache halten: 015111553031.
+Drei Tage vorher das Wimpernserum oder Wimpernöl absetzen.
+Nach der Behandlung:
+
+Wimpern täglich bürsten.
+24 Stunden nach der Behandlung keinen Kontakt mit Wasser, damit das Keratin gut einwirken kann.
+Nach 24 Stunden können die Wimpern wieder getuscht werden, jedoch keine wasserfeste Mascara verwenden.
+Kein Einsatz von Wimpernzangen und keine ölhaltigen Augen-Make-up-Entferner benutzen.
+Hinweis: Ein Wimpernlifting wird nicht für schwangere oder stillende Mütter empfohlen.
+
+Ein Wimpernlifting ist eine perfekte Lösung für ein langanhaltendes, natürliches Wimpern-Upgrade, das dir einen strahlend schönen Augenaufschlag verleiht!`,
   },
   {
     id: "7",  
     name: "Cover Up",   
     images: [imagePaths.cover],
-    description:"Die Augen sind das Fenster zu unserer Seele. Sie haben ihre eigene Sprache. Wir kommunizieren mit Ihnen ohne Worte und dennoch verstehen wir sie alle! Durch einen perfekten Lidstrich, egal ob natürlich oder dekorativ, können wir Ihren Ausdruck noch verstärken.",
+        description:`Cover Up – Korrektur und Anpassung von Permanent Make Up ✨
+
+Ein Cover Up dient dazu, ein bestehendes Permanent Make Up so anzupassen, dass es weniger sichtbar wird, indem es überdeckt oder korrigiert wird. Diese Technik eignet sich besonders, um veränderte Farbtöne, wie z. B. rötliche oder graublaue Pigmentierungen, zu neutralisieren und unschöne Formen zu korrigieren.
+
+Wie funktioniert ein Cover Up?
+
+Das Ziel eines Cover Ups ist es, die bestehende Pigmentierung zu kaschieren und dabei die Form der Augenbraue zu optimieren. Wenn ein Permanent Make Up nicht mehr so frisch aussieht oder unerwünschte Farbveränderungen aufweist, kann es durch den Einsatz der richtigen Komplementärfarbe korrigiert werden. Zum Beispiel kann eine rötliche Augenbraue mit einem bräunlichen Farbton überdeckt werden.
+
+Farblehre und Technik
+
+Für ein erfolgreiches Cover Up ist fundiertes Wissen über Farblehre erforderlich. Die Komplementärfarbe wird sorgfältig ausgewählt, um den bestehenden Farbton zu neutralisieren und ein harmonisches Ergebnis zu erzielen.
+
+Je nachdem, welche Art von Pigmentierung bereits vorhanden ist, wähle ich die passende Technik aus. Bei älteren Vollschattierungen eignet sich zum Beispiel nicht die Microblading-Technik, sondern eine intensivere Methode, die zu der vorhandenen Pigmentierung passt.
+
+Wann ist ein Cover Up nicht möglich?
+
+Ein Cover Up ist nicht immer durchführbar. Faktoren wie die Tiefe und Intensität der bestehenden Pigmentierung spielen dabei eine entscheidende Rolle. In manchen Fällen kann es erforderlich sein, das alte Permanent Make Up zunächst zu entfernen, bevor neue Pigmente aufgetragen werden können. Weitere Informationen zur Permanent Make Up Entfernung findest du weiter unten.
+
+Beratungsgespräch
+
+Ob ein Cover Up bei dir möglich ist, können wir gerne in einem persönlichen Beratungsgespräch klären. Sollte eine Entfernung des vorhandenen Permanent Make Ups notwendig sein, bespreche ich mit dir die nächsten Schritte.
+
+Bitte beachte, dass ein Cover Up oft einen höheren Schwierigkeitsgrad hat und mehr als eine Behandlung erforderlich sein kann. In solchen Fällen wird ein zusätzlicher Aufschlag berechnet.`,
   },
   
 ]

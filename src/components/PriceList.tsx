@@ -31,11 +31,11 @@ const PriceList = () => {
 
         {/* Footer Note */}
         <div className="z-10 mt-12 text-center text-sm text-gray-700 px-4">
-          <p className="mb-2">
-            Alle unsere Permanent Make-Up Preise verstehen sich inklusive einer
-            kostenlosen Nachbehandlung innerhalb von 2 Monaten.
+          <p className="mb-2 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            Bitte informieren Sie mir mindestens 24 Stunden im Voraus, falls Sie Ihren Termin nicht wahrnehmen können. Andernfalls wird eine Gebühr in Höhe von 20 % der gebuchten Dienstleistung berechnet. Vielen Dank für Ihr Verständnis!
+
           </p>
-          <p>Ratenzahlung auf Anfrage!</p>
+          {/*<p>Ratenzahlung auf Anfrage!</p>*/}
         </div>
       </div>
     </Container>

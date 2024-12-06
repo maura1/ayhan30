@@ -30,11 +30,26 @@ const Footer = () => {
   });
 
   // Form submission handler
-  const onSubmit: SubmitHandler<FormData> = (data) => {
-    console.log(data);
-    // You can replace this with an API call or other form submission logic
-  };
+  const onSubmit: SubmitHandler<FormData> = async (data) => {
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
+      if (response.ok) {
+        alert("Message sent successfully!");
+      } else {
+        alert("Failed to send the message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred. Please try again later.");
+    }
+  };
   return (
     <Container>
    
@@ -71,7 +86,8 @@ const Footer = () => {
             {/* Social Media Icons */}
             <div className="flex flex-col gap-4 mt-4">
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/ayhan.kublay.permanent/?igsh=MWQybGhyZmtnamJvZQ%3D%3D"
+                
                 passHref
                 className="group flex items-center w-fit hover:opacity-80 transition-opacity"
                 aria-label="Instagram"

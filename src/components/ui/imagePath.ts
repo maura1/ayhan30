@@ -5,5 +5,8 @@ const imagePaths = {
     lippen:'/images/services/lippen.jpeg',
     lashlifting:'/images/services/lashlifting.jpeg',
     cover:'/images/services/cover.jpeg',
+    shadowEyeliner:'/images/services/shadowEyeliner.jpeg',
 }
+    
+
 export default imagePaths

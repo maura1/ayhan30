@@ -10,9 +10,7 @@ const Welcome = () => {
             Mit Liebe für das Schöne
           </h3>*/}
           <p className="mt-2 text-md leading-relaxed text-whiteBg text-left">
-            Ich biete professionelle Behandlung für Augenbrauen, Augen und Lippen, bei denen Natürlichkeit immer im Vordergrund steht. 
-            Mit modernsten Techniken sorge ich dafür, dass dein Permanent Make-up harmonisch und dezent wirkt – so natürlich, dass man auf den ersten Blick kaum erkennt.
-            Ich freue mich darauf, dich auf deinem Weg zu einem perfekten, natürlichen Look zu begleiten!
+          Ich biete professionelle Behandlungen für Augenbrauen, Augen und Lippen an, bei denen Natürlichkeit stets im Mittelpunkt steht. Mit modernsten Techniken stelle ich sicher, dass dein Permanent Make-up harmonisch, dezent und perfekt auf dich abgestimmt ist – so natürlich, dass es kaum auffällt. Ich freue mich darauf, dich auf deinem Weg zu einem strahlenden, natürlichen Look begleiten zu dürfen!
           </p>
           <p className="mt-2 text-right text-blackC">
             - Ayhan

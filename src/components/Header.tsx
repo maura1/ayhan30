@@ -73,8 +73,9 @@ const Header = () => {
         </SheetTrigger>
         <SheetContent
           side="left"
-          className="w-[300px] sm:w-[400px] text-softWhiteC bg-blackC px-4 py-6"
-        >
+          className=" w-[300px] sm:w-[400px] text-softWhiteC bg-blackC px-4 py-6">
+          
+        
           <nav className="flex flex-col gap-4">
             {routes.map((route) => (
               <SheetClose asChild key={route.href}>

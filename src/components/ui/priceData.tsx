@@ -3,23 +3,23 @@ import { Price } from "@/types";
 export const priceData:  Price[] = 
  [
     {
-      title: "WIMPERNLIFTING DELUXE INKL. FÄRBEN + KERATIN + EYE CARE",
+      title: "Wimpernlifting Deluxe inkl. Färben + Keratin + Eye Care",
       description: "1:00 h.",     
       price: "45,00 EUR",
     },
     {
-      title: "WIMPERN- + BROWLIFTING INKL. FÄRBEN",
+      title: "Wimpern- + Browlifting inkl. Färben",
       description: "1:15 h.",
       price: "85,00 EUR",
     },
     {
-      title: "Wimpernlifting ANACENI",
+      title: "Wimpernlifting Anaceni",
       description: "1:00 h.",
       price: "55,00 EUR",
     },
   
     {
-      title: "BROWLIFTING INKL. EXPERT SHAPE + FÄRBEN + BROW KERATİN",
+      title: "Browlifting inkl. Expert Shape + Färben + Brow Keratin",
       description: "1:00 h.",
       price: "45,00 EUR",
     },
