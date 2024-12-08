@@ -139,7 +139,7 @@ Ein Wimpernlifting ist eine perfekte Lösung für ein langanhaltendes, natürlic
     id: "7",  
     name: "Cover Up",   
     images: [imagePaths.cover],
-        description:`Cover Up – Korrektur und Anpassung von Permanent Make Up 
+    description:`Cover Up – Korrektur und Anpassung von Permanent Make Up 
 
 Ein Cover Up dient dazu, ein bestehendes Permanent Make Up so anzupassen, dass es weniger sichtbar wird, indem es überdeckt oder korrigiert wird. Diese Technik eignet sich besonders, um veränderte Farbtöne, wie z. B. rötliche oder graublaue Pigmentierungen, zu neutralisieren und unschöne Formen zu korrigieren.
 
@@ -163,6 +163,20 @@ Ob ein Cover Up bei dir möglich ist, können wir gerne in einem persönlichen B
 
 Bitte beachte, dass ein Cover Up oft einen höheren Schwierigkeitsgrad hat und mehr als eine Behandlung erforderlich sein kann. In solchen Fällen wird ein zusätzlicher Aufschlag berechnet.`,
   },
+  {
+    id: "8",  
+    name: "Browslifting",   
+    images: [imagePaths.browslifting],
+    description:`Hast du lückenhafte, dünne oder widerspenstige Augenbrauen? Mit dem Brow Lifting gehört das der Vergangenheit an!
+Diese semi-permanente Behandlung verleiht deinen Brauen mehr Fülle, Struktur und die perfekte Form. Störrische Härchen werden gebändigt, kleine Asymmetrien ausgeglichen und die Augenpartie optisch gestrafft. Zum Abschluss werden deine Brauen durch Färben und Zupfen perfektioniert – für einen makellosen Look, der 4–6 Wochen hält.`,
+  },
+  
+  {  id: "9",  
+    name: "Augenbrauen zupfen (Fadentechnik)",   
+    images: [imagePaths.augenbrauenzupfen],
+    description:``,
+  },
+  
   
 ]
 export default services

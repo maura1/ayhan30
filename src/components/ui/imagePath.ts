@@ -6,6 +6,8 @@ const imagePaths = {
     lashlifting:'/images/services/lashlifting.jpeg',
     cover:'/images/services/cover.jpeg',
     shadowEyeliner:'/images/services/shadowEyeliner.jpeg',
+    browslifting:'/images/services/browslifting.jpeg',
+    augenbrauenzupfen:'/images/services/augenbrauenzupfen.jpeg'
 }
     
 
