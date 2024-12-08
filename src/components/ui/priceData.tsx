@@ -41,28 +41,28 @@ export const priceData:  Price[] =
     },
     {
       title: "Powder Brows  - Puderschattierung inkl. 1 Nachbehandlung",
-      description: "Green Peel Classic / Green Peel Energy 2.30 h",
+      description: "2.30 h",
       price: "390,00 EUR",
     },
     {
       title: "Microblading oder Powderbrows 3 Nachbehandlung",
-      description: "Mikrodermabrasion /(Mikro-)Dermabrasion 1:00 h",
+      description: "1:00 h",
       price: "80,00 EUR",
     },
     {
       title: "Microblading / Powderbrows Auffrischung 1 Jahr oder länger",
-      description: "Mikrodermabrasion / JetPeel/Sauerstoffbehandlung 1:00 h",
+      description: "1:00 h",
       price: "180.00 EUR",
     },
     
     {
-      title: "SHADING EYELINER (Eyeliner mit Lidschatten Effekt )inkl. 1 Nachbehandlung",
-      description: "Green Peel Energy / Mikrodermabrasion 3.00 h",
+      title: "Shading Eyeliner (Eyeliner mit Lidschatten Effekt )inkl. 1 Nachbehandlung",
+      description: "3.00 h",
       price: "300,00 EUR",
     },
     {
       title: "Eyeliner Pigmentierung | Wimpernkranzverdichtung inkl. 1 Nachbehandlung",
-      description: "Green Peel Classic / Green Peel Energy",
+      description: "2.30 h",
       price: "250,00 EUR",
     },
     {

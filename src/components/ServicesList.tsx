@@ -12,12 +12,12 @@ const ServiceList: React.FC = () => {
 
   return (
     <Container>
-      <div className="relative bg-pewterC pt-64 pb-12">
+      <div className="relative bg-pewterC pt-[75px] sm:pt-64  pb-12">
         <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative flex flex-col items-center text-center mb-8">
-            <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50">
+          <div className="relative flex flex-col items-center text-center mb-8 mt-64 sm:mt-0">
+            <h1 className="text-2xl  sm:text-3xl font-medium text-blackC z-50">
               Behandlung
             </h1>
             <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap">

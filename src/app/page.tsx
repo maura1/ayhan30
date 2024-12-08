@@ -9,24 +9,17 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative">
+      <div className="relative z-0">
         <Hero />
       </div>
 
       {/* Welcome Section */}
-      <div className="relative mt-8">
-        <div className="hidden lg:block">
-          {/* Show Welcome on large screens above Services */}
-          <Welcome />
-        </div>
+      <div className="relative  z-20">
+        <Welcome />
       </div>
 
       {/* Services Section */}
-      <div className="relative z-0 mt-8">
-        <div className="block lg:hidden">
-          {/* Show Welcome on small/medium screens below Hero but above Services */}
-          <Welcome />
-        </div>
+      <div className="relative z-10 ">
         <ServicesList />
       </div>
 

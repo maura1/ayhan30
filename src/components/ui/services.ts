@@ -139,7 +139,7 @@ Ein Wimpernlifting ist eine perfekte Lösung für ein langanhaltendes, natürlic
     id: "7",  
     name: "Cover Up",   
     images: [imagePaths.cover],
-        description:`Cover Up – Korrektur und Anpassung von Permanent Make Up ✨
+        description:`Cover Up – Korrektur und Anpassung von Permanent Make Up 
 
 Ein Cover Up dient dazu, ein bestehendes Permanent Make Up so anzupassen, dass es weniger sichtbar wird, indem es überdeckt oder korrigiert wird. Diese Technik eignet sich besonders, um veränderte Farbtöne, wie z. B. rötliche oder graublaue Pigmentierungen, zu neutralisieren und unschöne Formen zu korrigieren.
 
