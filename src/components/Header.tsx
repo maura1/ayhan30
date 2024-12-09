@@ -2,15 +2,15 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { useTheme } from 'next-themes';
+
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
-import { Button } from '@/components/ui/button';
-import { Menu, Sun, Moon, Phone } from 'lucide-react';
+
+import { Menu,  Phone } from 'lucide-react';
 import Image from 'next/image';
 import { routes } from '@/constants';
 
 const Header = () => {
-  const { theme, setTheme } = useTheme();
+ 
   const [activeButton, setActiveButton] = useState<string|null>(null);
 
   const handleButtonClick = (id:string) => {
