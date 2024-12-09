@@ -15,7 +15,7 @@ const PriceList = () => {
             Preise
           </h1>
           <span
-            className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-35px] md:top-[-50px] 
+            className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-45px] md:top-[-55px] 
             left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap"
           >
             Qualität

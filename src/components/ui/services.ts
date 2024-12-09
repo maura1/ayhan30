@@ -174,7 +174,15 @@ Diese semi-permanente Behandlung verleiht deinen Brauen mehr Fülle, Struktur un
   {  id: "9",  
     name: "Augenbrauen zupfen (Fadentechnik)",   
     images: [imagePaths.augenbrauenzupfen],
-    description:``,
+    description:`Mit der Fadentechnik lassen sich selbst feinste Härchen entfernen, mit denen die Pinzette in der Regel nicht zurechtkommt.
+Bei dieser Methode werden die Haare an der Wurzel entfernt.
+Anschließend werden die Augenbrauen in eine ordentliche Form gebracht.
+Geeignet für verschiedene Gesichtspartien.
+Mit dieser Technik werden überschüssige Haare im Bereich der Augenbrauen, zwischen den Augenbrauen, auf den Wangenknochen, auf der Stirn, am Kinn und oberhalb der Oberlippe entfernt.
+Schneller als Pinzette
+Mit einem Strich lassen sich leicht ein paar zusätzliche Haare entfernen, während mit der Pinzette die Haare einzeln entfernt werden, was den Vorgang zeitaufwendiger macht.
+Zusätzliche positive Auswirkungen
+Während der Arbeit haben Faden außerdem einen Peeling Effekt, der verhornte Partikel entfernt und einen Mikromassage-Effekt.`,
   },
   
   

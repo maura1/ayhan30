@@ -55,13 +55,15 @@ const Footer = () => {
    
       <div className="bg-pewterC  px-4 sm:px-12 md:px-24 lg:px-48 py-12 border ">
         {/* Header Section */}
-       
-       <div className="relative text-center mb-12 ">
-          <h1 className="text-2xl sm:text-3xl  font-medium text-blackC z-50">Kontakt</h1>
-          <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-0 left-1/2 transform -translate-x-1/2 -translate-y-[35px] md:-translate-y-[50px] g:-translate-y-[60px] pointer-events-none text-scalable whitespace-nowrap">
-            Mich Erreichen
-          </span>
-        </div>
+       <div className="relative text-center mb-12">
+  <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50 relative">Kontakt</h1>
+  <span
+    className="absolute deco-text md:deco-text-md lg:deco-text-lg left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-scalable md:deco-text-md lg:deco-text-lg top-[-5px] md:top-[-10px]  pointer-events-none"
+  >
+    Mich Erreichen
+  </span>
+</div>
+
 
 
         {/* Main Content Section */}
@@ -105,7 +107,7 @@ const Footer = () => {
                   </div>
                   {/* Text */}
                   <span className="ml-16 text-blackC text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
-                    Folge mich auf Instagram
+                    Folge mir auf Instagram
                   </span>
                 </div>
               </Link>

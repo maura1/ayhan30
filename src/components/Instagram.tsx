@@ -23,7 +23,7 @@ export default function Instagram(){
                   </div>
                   {/* Text */}
                   <span className="ml-16 text-blackC text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
-                    Folge mich auf Instagram
+                    Folge mir auf Instagram
                   </span>
                 </div>
               </Link>

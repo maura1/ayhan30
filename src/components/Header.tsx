@@ -55,7 +55,7 @@ const Header = () => {
         <Phone className="hidden lg:block lg:h-4 lg:w-4 lg:mr-2" />
         <span>0151-1155 30 31</span>
       </div>
-      <Button
+      {/*<Button
         className="text-softWhiteC"
         variant="ghost"
         size="icon"
@@ -64,7 +64,7 @@ const Header = () => {
       >
         <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
         <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-      </Button>
+      </Button>*/}
       <Sheet>
         <SheetTrigger>
           <div className="flex items-center lg:hidden text-softWhiteC">

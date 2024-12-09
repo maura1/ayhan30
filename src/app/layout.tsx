@@ -1,7 +1,6 @@
 import { Cinzel, Lato, Tangerine } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsApp from "@/components/WhatsApp";
 import Instagram from "@/components/Instagram";
 
@@ -42,8 +41,8 @@ export default function RootLayout({
       <body
         className={`${cinzel.variable} ${lato.variable} ${tangerine.variable} antialiased bg-[#E2E6E7]`}
       >
-        <ThemeProvider>
-          {/* Removed relative wrapper to avoid interfering with sticky */}
+        
+          
           <Header />
           <main>
             {children}
@@ -52,7 +51,7 @@ export default function RootLayout({
           <WhatsApp />
           <Instagram />
           </div>
-        </ThemeProvider>
+        
       </body>
     </html>
   );
