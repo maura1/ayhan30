@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-10">
         <Image
-          src="/images/hero.jpeg" // Path to your image
+          src="/images/hero1.jpg" // Path to your image
           alt="Hero Background"
           layout="fill" // Ensures the image stretches within its container
           objectFit="contain" // Keeps the entire image visible
