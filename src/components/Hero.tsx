@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next//image'
 
 export default function Hero() {
   return (
@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-10">
         <Image
-          src="/images/hero.jpeg" // Path to your image
+          src="/images/hero.jpg" // Path to your image
           alt="Hero Background"
           layout="fill" // Ensures the image stretches within its container
           objectFit="contain" // Keeps the entire image visible
@@ -14,7 +14,7 @@ export default function Hero() {
           priority // Optimizes loading for the hero image
         />
       </div>
-<div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+{/*<div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>*/}
       {/* Hero Content */}
       <div className="relative z-20 flex h-full w-full flex-col justify-end items-start text-left pb-12 px-4 sm:px-6 lg:px-8">
         <div className="relative">

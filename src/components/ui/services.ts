@@ -54,8 +54,8 @@ Mit PowderBrows erhältst du natürlich schöne Augenbrauen, die deinen Look per
   {
     id: "4",  
     name: "Lidstrich",   
-    images: [imagePaths.lidstrich],
-    description:`Lidstrich/Eyeliner (nur Oberlid):
+    images: [imagePaths.eyeliner],
+    description:`Lidstrich/Eyeliner/WimpernKranz (nur Oberlid):
 Ein zarter Lidstrich macht deine Augen ausdrucksvoller und verleiht deinen Wimpern eine dichte, voluminöse Wirkung. Diese Technik sorgt für einen permanent gepflegten Look.
 
 Ablauf der Behandlung
@@ -77,7 +77,7 @@ Mit der Eyeliner-Pigmentierung oder Wimpernkranzverdichtung erhältst du strahle
   {
     id: "5",  
     name: "Shading Eyeliner",   
-    images: [imagePaths.shadowEyeliner],
+    images: [imagePaths.shadingeyeliner],
     description:`Shading Eyeliner – Der Eyeliner mit Lidschatten-Effekt
 
 Für einen ausdrucksstarken Look
@@ -138,7 +138,7 @@ Ein Wimpernlifting ist eine perfekte Lösung für ein langanhaltendes, natürlic
   {
     id: "7",  
     name: "Cover Up",   
-    images: [imagePaths.cover],
+    images: [imagePaths.coverup],
     description:`Cover Up – Korrektur und Anpassung von Permanent Make Up 
 
 Ein Cover Up dient dazu, ein bestehendes Permanent Make Up so anzupassen, dass es weniger sichtbar wird, indem es überdeckt oder korrigiert wird. Diese Technik eignet sich besonders, um veränderte Farbtöne, wie z. B. rötliche oder graublaue Pigmentierungen, zu neutralisieren und unschöne Formen zu korrigieren.
@@ -155,7 +155,7 @@ Je nachdem, welche Art von Pigmentierung bereits vorhanden ist, wähle ich die p
 
 Wann ist ein Cover Up nicht möglich?
 
-Ein Cover Up ist nicht immer durchführbar. Faktoren wie die Tiefe und Intensität der bestehenden Pigmentierung spielen dabei eine entscheidende Rolle. In manchen Fällen kann es erforderlich sein, das alte Permanent Make Up zunächst zu entfernen, bevor neue Pigmente aufgetragen werden können. Weitere Informationen zur Permanent Make Up Entfernung findest du weiter unten.
+Ein Cover Up ist nicht immer durchführbar. Faktoren wie die Tiefe und Intensität der bestehenden Pigmentierung spielen dabei eine entscheidende Rolle. In manchen Fällen kann es erforderlich sein, das alte Permanent Make Up zunächst zu entfernen, bevor neue Pigmente aufgetragen werden können. 
 
 Beratungsgespräch
 
