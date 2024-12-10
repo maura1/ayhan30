@@ -75,12 +75,12 @@ const Footer = () => {
             <div className="text-lg py-4 ">
               {/* Phone Number */}
               <div className="flex items-center  mb-2">
-                <Phone className="w-5 h-5 mr-2  text-blackC bg-champagneC" />
+                <Phone className="w-10 h-10 p-2 mr-2  text-blackC bg-champagneC" />
                 <p>0151-1155 30 31</p>
               </div>
               {/* Email Address */}
               <div className="flex items-center">
-                <Mail className="w-5 h-5 mr-2 text-blackC bg-champagneC" />
+                <Mail className="w-10 h-10  p-2 mr-2 text-blackC bg-champagneC" />
                 <p>info@ayhankublay.de</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                 className="group flex items-center w-fit hover:opacity-80 transition-opacity"
                 aria-label="Instagram"
               >
-                <div className="relative flex items-center w-14 h-14 rounded-full bg-champagneC transition-all duration-300 group-hover:w-[250px] overflow-hidden">
+                <div className="relative flex items-center w-14 h-14 rounded-full bg-champagneC transition-all duration-300 group-hover:w-[250px] overflow-hidden ">
                   {/* Icon */}
                   <div className="absolute left-0 top-0 flex items-center justify-center w-14 h-14">
                     <Image

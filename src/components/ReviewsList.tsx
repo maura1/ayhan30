@@ -15,7 +15,7 @@ export default function ReviewsList() {
       <div className=" px-8 py-14">
         <div className="relative flex justify-center mb-8">
           <h1 className=" text-2xl sm:text-3xl md:text-3xl  font-medium text-blackC z-50">Bewertungen</h1>
-          <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-40px] md:top-[-55px]  left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
+          <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-40px] md:top-[-60px]  left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
               Meine Kunden
             </span>
         </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next//image'
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
           objectFit="contain" // Keeps the entire image visible
           objectPosition="center" // Centers the image
           priority // Optimizes loading for the hero image
-        />
+        />s
       </div><div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
       {/* Hero Content */}
       <div className="relative z-20 flex h-full w-full flex-col justify-end items-start text-left pb-12 px-4 sm:px-6 lg:px-8">
