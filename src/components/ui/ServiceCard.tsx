@@ -21,22 +21,27 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) =
       onClick={handleCardClick}
       className="outline-0 focus:ring-2 hover:ring-2 ring-navbarText transition duration-300 rounded-lg block ring-1 ring-slate-900/5 cursor-pointer border"
     >
-      <Card className="bg-whiteBg rounded-lg shadow-lg ">
+      <Card className="bg-whiteBg rounded-lg shadow-lg">
         <div
           className={`${
             imageRight ? "md:flex-row-reverse" : "md:flex-row"
           } flex md:items-stretch flex-col-reverse md:w-full w-full`}
         >
           {/* Image Section */}
-          <div className="md:w-1/2 w-full relative h-64 md:h-auto">
-            <Image
-              src={data.images?.[0] ?? "/default-image.png"}
-              alt={data.name}
-              layout="fill" 
-              objectFit="cover"  
-              objectPosition="center" 
-              className="transition-transform duration-300 hover:scale-105 rounded-lg"
-            />
+          <div className="md:w-1/2 w-full relative h-80 md:h-96">
+            <div className="absolute inset-0 overflow-hidden rounded-lg">
+              <Image
+                src={data.images?.[0] ?? "/default-image.png"}
+                alt={data.name}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "center"
+                }}
+                className="transition-transform duration-300 hover:scale-105"
+              />
+            </div>
           </div>
 
           {/* Content Section */}

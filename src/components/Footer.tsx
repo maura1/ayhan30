@@ -58,7 +58,7 @@ const Footer = () => {
        <div className="relative text-center mb-12">
   <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50 relative">Kontakt</h1>
   <span
-    className="absolute deco-text md:deco-text-md lg:deco-text-lg left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-scalable md:deco-text-md lg:deco-text-lg top-[-5px] md:top-[-10px]  pointer-events-none"
+    className="absolute deco-text md:deco-text-md lg:deco-text-lg left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-scalable md:deco-text-md lg:deco-text-lg top-[-5px] md:top-[-10px]  pointer-events-none whitespace-nowrap"
   >
     Mich Erreichen
   </span>
