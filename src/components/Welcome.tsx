@@ -3,7 +3,7 @@ import Container from "./ui/container";
 const Welcome = () => {
   return (
     <Container>
-      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-4/5 mb-10 md:w-[40rem] lg:w-[50rem]
+      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-4/5 mb-10 mt-12 sm:mt-0 md:w-[40rem] lg:w-[50rem]
        bg-champagneC px-4 sm:px-8 md:px-12 lg:px-24 py-4 shadow-md rounded-lg z-30 sm:z-50">
         <div className="text-center">
           <p className="mt-2 text-md leading-relaxed text-whiteBg text-left">

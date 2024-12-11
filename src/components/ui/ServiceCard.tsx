@@ -47,11 +47,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) =
           {/* Content Section */}
           <CardContent className="md:w-1/2 w-full p-6 flex flex-col justify-between">
             <div className="space-y-2">
-              <p className="font-semibold text-lg text-navbarText underline">
+              <h3 className="font-semibold mt-6 underline ">
                 {data.name}
-              </p>
+              </h3>
               <p
-                className={`text-sm text-navbarText transition-all duration-300 ${
+                className={` transition-all duration-300 ${
                   isExpanded ? "" : "line-clamp-6"
                 }`}
                 dangerouslySetInnerHTML={{
@@ -59,7 +59,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ data, imageRight = false }) =
                 }}
               ></p>
             </div>
-            <p className="text-sm font-semibold mt-4 text-right text-navbarText">
+            <p className="text-xl  mt-4 text-right ">
               {isExpanded ? "Weniger anzeigen" : "Mehr anzeigen"} &gt;
             </p>
           </CardContent>

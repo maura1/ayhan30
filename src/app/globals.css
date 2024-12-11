@@ -89,30 +89,8 @@
         @apply sm:px-16 px-8 sm:py-24 py-12;
     }
 
-    .padding-x {
-        @apply sm:px-16 px-8;
-    }
-
-    .padding-y {
-        @apply sm:py-24 py-12;
-    }
-
-    .padding-l {
-        @apply sm:pl-16 pl-8;
-    }
-
-    .padding-r {
-        @apply sm:pr-16 pr-8;
-    }
-
-    .padding-t {
-        @apply sm:pt-24 pt-12;
-    }
-
-    .padding-b {
-        @apply sm:pb-24 pb-12;
-    }
   }
+
 
 body,html{
   width:100%;
@@ -141,6 +119,18 @@ body,html{
     font-family:var(--font-cinzel);
     font-size:1.5rem;
   }
+  h3{
+    font-size: 1.2rem;
+  }
+ p{
+  font-family:var(--font-lato);
+  font-size:1rem;
+  line-height:140%;
+ 
+ }
+
+
+
   .text-scalable {
     font-size: clamp(1.2rem, 4vw, 2.5rem); /* Adjust values as needed */
 }

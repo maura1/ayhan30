@@ -72,21 +72,21 @@ const Footer = () => {
           <div className="md:w-1/2 pt-2 ">
             <p className="text-2xl mb-4">Terminabsprachen nach vereinbarung</p>
             
-            <div className="text-lg py-4 ">
+            <div className="text-4xl py-4">
               {/* Phone Number */}
-              <div className="flex items-center  mb-2">
-                <Phone className="w-10 h-10 p-2 mr-2  text-blackC bg-champagneC" />
+              <div className="flex items-center  mb-2  ">
+                <Phone className="w-10 h-10 p-2 mr-2  text-blackC bg-champagneC rounded-sm" />
                 <p>0151-1155 30 31</p>
               </div>
               {/* Email Address */}
               <div className="flex items-center">
-                <Mail className="w-10 h-10  p-2 mr-2 text-blackC bg-champagneC" />
+                <Mail className="w-10 h-10  p-2 mr-2 text-blackC rounded-sm bg-champagneC" />
                 <p>info@ayhankublay.de</p>
               </div>
             </div>
 
             {/* Social Media Icons */}
-            <div className="flex flex-col gap-4 mt-4">
+            <div className="flex flex-col gap-4 mt-4 ">
               <Link
                 href="https://www.instagram.com/ayhan.kublay.permanent/?igsh=MWQybGhyZmtnamJvZQ%3D%3D"
                 
@@ -102,11 +102,11 @@ const Footer = () => {
                       alt="Instagram"
                       width={24}
                       height={24}
-                      className="pointer-events-none"
+                      className="pointer-events-none "
                     />
                   </div>
                   {/* Text */}
-                  <span className="ml-16 text-blackC text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
+                  <span className="ml-16 text-blackC text-base opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap">
                     Folge mir auf Instagram
                   </span>
                 </div>
@@ -130,7 +130,7 @@ const Footer = () => {
                     />
                   </div>
                   {/* Text */}
-                  <span className="ml-16 text-black text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap ">
+                  <span className="ml-12 text-black text-base opacity-0 transition-opacity duration-300 group-hover:opacity-100 whitespace-nowrap ">
                     Chat per WhatsApp starten
                   </span>
                 </div>
@@ -140,9 +140,9 @@ const Footer = () => {
 
           {/* Right Section (Form) */}
           <div className="md:w-1/2 + ">
-            <h2 className="text-xl mb-4 text-center md:text-left">
+            <h3 className="text-xl mb-4 text-center md:text-left">
               Ich stehe für alle Fragen jeder zeit zu Verfügung!
-            </h2>
+            </h3>
 
             {/* Form */}
             <Form {...form}>
@@ -234,7 +234,7 @@ const Footer = () => {
                 />
 
                 {/* Submit Button */}
-                <Button type="submit" className="w-full bg-champagneC text-blackC hover:bg-blackC hover:text-softWhiteC">
+                <Button type="submit" className="w-full bg-champagneC text-blackC text-xl hover:bg-blackC hover:text-softWhiteC">
                   Jetzt Senden
                 </Button>
               </form>

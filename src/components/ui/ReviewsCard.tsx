@@ -51,7 +51,7 @@ export default function ReviewsCard({ name, text, stars }: Review) {
 
       {/* Card Footer */}
       <CardFooter className="p-4 border-t h-12 flex items-center">
-        <p className="text-champagneC italic">{name}</p>
+        <p className="text-champagneC text-xl font-semibold italic">{name}</p>
       </CardFooter>
     </Card>
   );

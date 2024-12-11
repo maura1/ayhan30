@@ -45,7 +45,7 @@ export const priceData:  Price[] =
       price: "390,00 EUR",
     },
     {
-      title: "Microblading oder Powderbrows 3 Nachbehandlung",
+      title: "Microblading oder Powderbrows 3. Nachbehandlung",
       description: "1:00 h",
       price: "80,00 EUR",
     },
@@ -76,7 +76,7 @@ export const priceData:  Price[] =
       price: "390,00 h",
     },
     {
-      title: "Lippen/ PowderLips 3 Nachbehandlung",
+      title: "Lippen/ PowderLips 3.Nachbehandlungs",
       description: "2:00 h",
       price: "150,00 EUR",
     },
@@ -98,7 +98,7 @@ export const priceData:  Price[] =
    
   
     {
-      title: "Orientalische Fadentechnik",
+      title: "Orientalische Fadentechnik (gesicht)",
       description: "45 min.",
       price: "20,00 EUR",
     },
