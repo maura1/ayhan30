@@ -10,24 +10,18 @@ const AboutMe= () => {
            
 
 <h1 className="flex justify-center text-xl mb-10">Herzlich willkommen bei Ayhan Permanent Make-Up!</h1>
-<p>
- Ich freue mich, dass Sie den Weg zu mir gefunden haben. Ursprünglich habe ich fünf Jahre als Friseurin gearbeitet – ein Beruf, den ich sehr geliebt habe. Doch mit der Geburt meines Kindes habe ich beschlossen, mich beruflich neu zu orientieren und etwas zu finden, das meine Leidenschaft für Schönheit und meine kreative Ader perfekt vereint.
-</p>
-<p>
-Ich habe immer schon gespürt, dass ich meinen Kunden nicht nur ein neues Styling, sondern ein ganzheitliches Gefühl von Schönheit und Selbstbewusstsein schenken möchte. Mein Interesse für Permanent Make-Up hat mich dazu motiviert, mich intensiv weiterzubilden und verschiedene Zertifikate in diesem Bereich zu erwerben.
-</p>
-<p>
-Heute übe ich meinen Beruf mit viel Herzblut aus, und das Feedback meiner Kundinnen und Kunden bestätigt mir, wie gut ihnen meine Arbeit tut. Es ist mir besonders wichtig, ein natürliches Ergebnis zu erzielen, das Ihre Persönlichkeit unterstreicht und mit dem Sie sich rundum wohlfühlen.
-</p>
-<p>
-Werfen Sie gerne einen Blick auf meine Bewertungen und zögern Sie nicht, mich bei Fragen zu kontaktieren. Ich freue mich darauf, Sie in meinem Studio begrüßen zu dürfen!
-</p>
-
-
-          </div>
+<p className="mb-2">
+Es freut mich sehr, dass du den Weg zu mir gefunden hast. Ursprünglich habe ich fünf Jahre lang als Friseurin gearbeitet – eine Tätigkeit, die ich immer mit viel Leidenschaft ausgeübt habe. Doch nach der Geburt meines Kindes habe ich mich entschieden, beruflich neue Wege zu gehen und etwas zu finden, das meine Liebe zur Schönheit und meine kreative Ader perfekt vereint.</p>
+<p className="mb-2">
+Schon immer hatte ich das Bedürfnis, dir nicht nur ein neues Styling zu bieten, sondern dir ein ganzheitliches Gefühl von Schönheit und Selbstbewusstsein zu schenken. Dieses Anliegen hat mich dazu motiviert, mich intensiv im Bereich Permanent Make-Up weiterzubilden und verschiedene Zertifikate zu erlangen.</p>
+<p className="mb-2">
+Heute arbeite ich mit viel Hingabe und Herzblut und freue mich über das positive Feedback meiner Kundinnen und Kunden, das mir immer wieder zeigt, wie sehr meine Arbeit ihr Wohlbefinden und ihre Zufriedenheit fördert. Besonders wichtig ist es mir, ein natürliches Ergebnis zu erzielen, das deine Persönlichkeit unterstreicht und dir das Gefühl gibt, dich rundum wohlzufühlen.</p>
+<p className="mb-2">
+Schau dir gerne die Bewertungen meiner zufriedenen Kundinnen und Kunden an. Bei Fragen stehe ich dir jederzeit gerne zur Verfügung und freue mich darauf, dich bald in meinem Studio begrüßen zu dürfen.</p>
           <p className="mt-2 text-right text-blackC">
             - Ayhan
           </p>
+        </div>
         </div>
       </div>
     </Container>

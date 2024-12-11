@@ -137,6 +137,10 @@ body,html{
     font-family: var(--font-cinzel);
     font-size: 1.5rem;
   }
+  h2 span{
+    font-family:var(--font-cinzel);
+    font-size:1.5rem;
+  }
   .text-scalable {
     font-size: clamp(1.2rem, 4vw, 2.5rem); /* Adjust values as needed */
 }

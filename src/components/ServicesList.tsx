@@ -38,7 +38,7 @@ const handleToggle = () => {
             <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50">
               Behandlung
             </h1>
-            <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-40px] md:top-[-60px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap">
+            <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-45px] md:top-[-60px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap">
               Individualität
             </span>
           </div>
