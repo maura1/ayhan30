@@ -63,6 +63,7 @@ export default function Hero() {
           <span className="hidden sm:inline sm:text-xl md:text-2xl">Artist</span>
         </h2>
       </div>
-    </div>
+  
+       </div>
   );
 }
