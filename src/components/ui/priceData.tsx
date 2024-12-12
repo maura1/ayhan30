@@ -76,7 +76,7 @@ export const priceData:  Price[] =
       price: "390,00 h",
     },
     {
-      title: "Lippen/ PowderLips 3.Nachbehandlungs",
+      title: "Lippen/ PowderLips 3.Nachbehandlung",
       description: "2:00 h",
       price: "150,00 EUR",
     },

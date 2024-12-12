@@ -43,7 +43,7 @@ const Impressum = () => {
 
         {/* Finanzamt */}
         <p className="font-bold text-left">Finanzamt:</p>
-        <p className="text-left">Schwabmünchen</p>
+        <p className="text-left">Augsburgs</p>
 
        
       </div>

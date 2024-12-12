@@ -31,11 +31,11 @@ const handleToggle = () => {
        className="relative bg-pewterC pb-12 pt-8 border">
         <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>
         
-        <div className="relative flex flex-col items-center text-center mb-8 pt-12">
+        <div className="relative flex flex-col items-center text-center mb-10 mt-20">
             <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50">
               Behandlung
             </h1>
-            <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-30px] md:top-[-25px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap">
+            <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-30px] md:top-[-60px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap translate=no">
               Individualität
             </span>
           </div>

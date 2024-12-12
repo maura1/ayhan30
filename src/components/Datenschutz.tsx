@@ -6,7 +6,7 @@ const Datenschutz = () => {
   return (
     <>
     
-      <div   className=" w-full ">
+      <div   className=" w-full bg-softWhiteC ">
  <div className="relative text-center mb-12">
           <h2 className="text-3xl  font-bold md:text-4xl  text-blackC">Datenschutz</h2>
           </div>

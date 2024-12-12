@@ -47,7 +47,7 @@ export default function Hero() {
       <div className="relative z-20 flex h-full w-full flex-col justify-end items-start text-left pb-0 sm:pb-12 px-4 sm:px-6 lg:px-8">
         <div className="relative">
           {/* Decorative Text */}
-          <span className="absolute deco-text md:deco-text-md text-softWhiteC sm:text-champagneC top-[-13px] sm:top-[-45px] md:top-[-70px] lg:top-[-70px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap ">
+          <span className="absolute deco-text md:deco-text-md text-softWhiteC sm:text-champagneC top-[-13px] sm:top-[-45px] md:top-[-70px] lg:top-[-70px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap translate=no">
             Natürliche Schönheit
           </span>
           <h1 className="relative hidden sm:block sm:text-4xl xl:text-5xl font-medium text-softWhiteC sm:pl-24">

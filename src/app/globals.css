@@ -107,6 +107,7 @@ body,html{
   h1 {
     font-family: var(--font-cinzel);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform:capitalize;
   }
   h1 div {
     font-family: var(--font-cinzel);
@@ -114,13 +115,16 @@ body,html{
   h2{
     font-family: var(--font-cinzel);
     font-size: 1.5rem;
+    text-transform:capitalize;
   }
   h2 span{
     font-family:var(--font-cinzel);
     font-size:1.5rem;
+    text-transform:capitalize;
   }
   h3{
     font-size: 1.2rem;
+    text-transform:capitalize;
   }
  p{
   font-family:var(--font-lato);
