@@ -8,7 +8,7 @@ const Datenschutz = () => {
     
       <div   className=" w-full ">
  <div className="relative text-center mb-12">
-          <h2 className="text-6xl  font-bold md:text-8xl  text-blackC">Datenschutz</h2>
+          <h2 className="text-3xl  font-bold md:text-4xl  text-blackC">Datenschutz</h2>
           </div>
       <p>
         <h2 className="mb-4">Ayhan Kublay Permanent Make-Up</h2>

@@ -9,6 +9,8 @@ import {
 import ReviewsCard from '@/components/ui/ReviewsCard';
 import { reviews } from '@/components/ui/reviews';
 import Container from '@/components/ui/container';
+import Link from 'next/link'
+import {Button} from '@/components/ui/button'
 export default function ReviewsList() {
   return (
     <Container>   
@@ -51,13 +53,13 @@ export default function ReviewsList() {
             <CarouselNext  />
           </Carousel>
         </div>
-        {/*<div className="flex justify-center mt-8">
-          <Link href="/reviews" passHref>
-            <Button variant="default" className="px-6 py-3 text-lg bg-brownC">
-              Alle Bewertungen
+        <div className="flex justify-center mt-8">
+          <Link href="https://www.google.com/search?client=safari&sca_esv=61ba496ce5dbe72c&hl=en-de&kgmid=%2Fg%2F11v5n4wwr8&q=Ayhan%20Kublay%20Permanent%20Make%20Up&shndl=30&shem=sbpo3&source=sh%2Fx%2Floc%2Fact%2Fm4%2F3" passHref>
+            <Button variant="default" className="px-6 py-3 text-lg bg-brownC text-blackC hover:text-softWhiteC" >
+              Deine Bewertungen
             </Button>
           </Link>
-        </div>*/}
+        </div>
       </div>
     </Container>
   );

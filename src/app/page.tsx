@@ -14,12 +14,12 @@ export default function HomePage() {
       </div>
 
       {/* Welcome Section */}
-      <div className="relative  z-20">
+      <div className="relative sm:absolute sm:top-[75%] sm:left-0 sm:right-0 z-20">
         <Welcome />
       </div>
 
       {/* Services Section */}
-      <div className="relative z-10 ">
+      <div className="relative z-10 mt-4 sm:mt-32">
         <ServicesList />
       </div>
 

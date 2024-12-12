@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import ServiceCard from "@/components/ui/ServiceCard";
-import services from "@/components/ui/services";
+import services from "./ui/services";
 import Container from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
@@ -25,23 +25,26 @@ const handleToggle = () => {
   }
 };
 
-
-
   return (
     <Container>
       <div 
-       className="relative bg-pewterC pt-[75px] sm:pt-64 pb-12">
+       className="relative bg-pewterC pb-12 pt-8 border">
         <div className="absolute inset-0 pointer-events-none bg-noise z-0"></div>
-
-        <div id="services-section" className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative flex flex-col items-center text-center mb-8 mt-64 sm:mt-0">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 ">
+          <h2 className="flex items-center justify-center pb-4">Pigmente</h2>
+          <p className="pb-16">Ich verwende ausschließlich streng kontrollierte Pigmente, die REACH-konform, vegan und tierversuchsfrei sind, um dir höchste Qualität und Sicherheit zu garantieren.
+          Gerne stehe ich dir für ein persönliches Beratungsgespräch zur Verfügung, um deine individuellen Wünsche zu besprechen.</p>
+        </div> 
+        <div className="relative flex flex-col items-center text-center mb-8  sm:mt-0">
             <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50">
-              Behandlung
+              Behandlung‚
             </h1>
             <span className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-45px] md:top-[-60px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap">
               Individualität
             </span>
           </div>
+
+        <div id="services-section" className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 ">
 
           {/* Service Cards */}
           <div className="space-y-4">

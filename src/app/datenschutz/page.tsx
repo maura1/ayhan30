@@ -1,5 +1,5 @@
 
-import Datenschutz from "@/content/datenschutz";
+import Datenschutz from "@/components/Datenschutz";
 
 export default function DatenschutzPage() {
   return (

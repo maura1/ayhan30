@@ -9,6 +9,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { User, Mail, Phone, Pen } from "lucide-react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { useState } from "react";
+import Impressum from "./Impressum";
+import Datenschutz from "./Datenschutz";
 
 
 interface FormData {
@@ -19,6 +22,16 @@ interface FormData {
 }
 
 const Footer = () => {
+  const [showImpressum, setShowImpressum] = useState(false);
+  const [showDatenschutz, setShowsDatenschutz] = useState(false);
+
+  const handleImpressumClick = () => {
+    setShowImpressum(!showImpressum); // Toggle visibility
+  };
+  const handleDatenschutzClick = () => {
+    setShowsDatenschutz(!showDatenschutz); // Toggle visibility
+  };
+  
   // Define the form using react-hook-form with FormData type
   const form = useForm<FormData>({
     defaultValues: {
@@ -53,7 +66,7 @@ const Footer = () => {
   return (
     <Container>
    
-      <div className="bg-pewterC  px-4 sm:px-12 md:px-24 lg:px-48 py-12 border ">
+      <div className="bg-pewterC  px-4 sm:px-12 md:px-24 lg:px-48 py-12  ">
         {/* Header Section */}
        <div className="relative text-center mb-12">
   <h1 className="text-2xl sm:text-3xl font-medium text-blackC z-50 relative">Kontakt</h1>
@@ -270,23 +283,43 @@ const Footer = () => {
 
         {/* Footer Links */}
         <div className="w-full bg-champagneC text-blackC py-4 text-center">
-          <p className="text-sm">
-            ©Ayhan Kublay Permanent Make up |{" "}
-            <Link href="/impressum" className="underline">
-              Impressum
-            </Link>
-              
-            |{" "}
-            <Link href="/datenschutz" className="underline">
-              Datenschutz
-            </Link>{" "}
-            |{" "}
-            <Link href="/cookie" className="underline">
-              Cookie-Einstellung
-            </Link>
-          </p>
+      <p className="text-sm">
+        ©Ayhan Kublay Permanent Make up |{" "}
+        <button
+          onClick={handleImpressumClick}
+          className="underline text-blue-600 hover:text-blue-800"
+        >
+          Impressum
+        </button>{" "}
+        |{" "}
+        
+        <button
+          onClick={handleDatenschutzClick}
+          className="underline text-blue-600 hover:text-blue-800"
+        >
+          Datenschutz
+        </button>{" "}
+        |{" "}
+        <Link href="/cookie" className="underline">
+          Cookie-Einstellung
+        </Link>
+      </p>
+
+      
+      {/* Conditionally Render Impressum Component */}
+      {showImpressum && (
+        <div className="mt-6 ">
+          <Impressum />
         </div>
+      )}
+    </div>
+    {/* Conditionally Render Datenschutz Component */}
+    {showDatenschutz && (
+        <div className="mt-6  p-6 border border-gray-300 rounded-lg">
+          <Datenschutz />
         </div>
+      )}
+    </div>
      </Container> 
     
   );
