@@ -1,6 +1,7 @@
 import Container from "@/components/ui/container";
 import { priceData } from "./ui/priceData";
 import PriceItem from "./ui/PriceItem";
+import Image from "next/image";
 
 const PriceList = () => {
   return (
@@ -16,7 +17,7 @@ const PriceList = () => {
           </h1>
           <span
             className="absolute deco-text md:deco-text-md lg:deco-text-lg top-[-50px] md:top-[-60px] 
-            left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap translate=no"
+            left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap "
           >
             Qualität
           </span>
@@ -36,6 +37,37 @@ const PriceList = () => {
 
           </p>
           {/*<p>Ratenzahlung auf Anfrage!</p>*/}
+        </div>
+
+        {/* Gift Certificate Section */}
+        <div className="z-10 mt-16 bg-champagneC p-6 rounded-lg shadow-lg max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-6">
+          {/* Image */}
+          <div className="flex-shrink-0">
+            <Image
+              src="/images/gütschein.png"
+              alt="Gutschein"
+              width={400}
+              height={200}
+              className="rounded-lg shadow-md "
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="text-center md:text-left">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
+            Schönheit zum Verschenken – bei mir ganz einfach!
+            </h2>
+            <p className="text-gray-700 mb-4">
+            Überrasche deine Liebsten mit einem Geschenk-Gutschein für eine Permanent-Make-up Behandlung und schenke ihnen das Gefühl von natürlicher Schönheit.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Den Betrag kannst du frei wählen.
+            </p>
+            <p className="text-gray-700">
+              Bestellung mit <a href="https://wa.me/4915111553031" className="text-softWhiteC underline font-bold">WhatsApp</a>&nbsp; oder per <a href="mailto:info@ayhankublay.de" className="text-softWhiteC underline font-bold">E-Mail</a>.
+            </p>
+          </div>
+
         </div>
       </div>
     </Container>

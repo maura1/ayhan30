@@ -82,6 +82,34 @@
   }
 
     }
+    .deco-text{
+      font-family: tangerine, cursive;
+      font-size:48px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: #d0b49f;
+      z-index: 10;
+      opacity: 0.9;   
+    }
+    
+    .deco-text-md{
+      
+      font-family: tangerine, cursive;
+      font-size:64px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: #d0b49f;
+      z-index: 10;
+      opacity: 0.9;  
+    }
+    .deco-text-lg{
+      font-family: tangerine, cursive;
+      font-size:64px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: #d0b49f;
+      z-index: 10;
+      opacity: 0.9; 
+    }
+  
+    
     
   }
   @layer utilities{
@@ -138,7 +166,7 @@ body,html{
   .text-scalable {
     font-size: clamp(1.2rem, 4vw, 2.5rem); 
 }
-  .deco-text{
+   .deco-text{
     font-family: tangerine, cursive;
     font-size:48px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -148,10 +176,21 @@ body,html{
   }
   
   .deco-text-md{
-    font-size:64px
+    
+    font-family: tangerine, cursive;
+    font-size:64px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #d0b49f;
+    z-index: 10;
+    opacity: 0.9;  
   }
   .deco-text-lg{
+    font-family: tangerine, cursive;
     font-size:64px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #d0b49f;
+    z-index: 10;
+    opacity: 0.9; 
   }
 
   .bg-noise {

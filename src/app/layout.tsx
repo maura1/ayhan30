@@ -37,7 +37,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
+      <meta name="google" content="nontranslate"/>
       <body
         className={`${cinzel.variable} ${lato.variable} ${tangerine.variable} antialiased bg-[#E2E6E7]`}
       >

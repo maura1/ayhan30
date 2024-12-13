@@ -47,23 +47,23 @@ export default function Hero() {
       <div className="relative z-20 flex h-full w-full flex-col justify-end items-start text-left pb-0 sm:pb-12 px-4 sm:px-6 lg:px-8">
         <div className="relative">
           {/* Decorative Text */}
-          <span className="absolute deco-text md:deco-text-md text-softWhiteC sm:text-champagneC top-[-13px] sm:top-[-45px] md:top-[-70px] lg:top-[-70px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap translate=no">
+          <span className="absolute deco-text md:deco-text-md text-softWhiteC sm:text-champagneC top-[-13px] sm:top-[-45px] md:top-[-70px] lg:top-[-70px] left-50 transform translate-50 pointer-events-none text-scalable whitespace-nowrap" >
             Natürliche Schönheit
           </span>
-          <h1 className="relative hidden sm:block sm:text-4xl xl:text-5xl font-medium text-softWhiteC sm:pl-24">
+          <h1 className="relative hidden sm:block sm:text-4xl xl:text-5xl font-medium text-softWhiteC sm:pl-24" >
             Willkommen bei
           </h1>
         </div>
 
         {/* Adjusted Text Section */}
         <h2 className="relative text-xl md:text-2xl lg:text-2xl md:pl-40 sm:pl-24 pb-6 text-white bg-opacity-70 bg-black  p-2 pt-10 sm:pt-0 rounded-lg">
-          <span className="hidden sm:inline  md:text-2xl">Ayhan Kublay</span>&nbsp;
-          <span className="sm:hidden inline text-2xl">mit </span>&nbsp;
-          <span className="tex-:4xl">Permanent Makeup</span>&nbsp;
-          <span className="hidden sm:inline sm:text-xl md:text-2xl">Artist</span>
+          <span className="hidden sm:inline  md:text-2xl" >Ayhan Kublay</span>&nbsp;
+          <span className="sm:hidden inline text-2xl" >mit </span>&nbsp;
+          <span className="tex-:4xl"translate="no">Permanent Makeup</span>&nbsp;
+          <span className="hidden sm:inline sm:text-xl md:text-2xl" >Artist</span>
         </h2>
       </div>
-  
+  s
        </div>
   );
 }

@@ -10,7 +10,7 @@ const Welcome = () => {
       >
         <div className="text-center">
           <p className="mt-2 text-md leading-relaxed text-whiteBg text-left">
-            Ich biete professionelle Behandlungen für Augenbrauen, Augen und Lippen an, bei denen Natürlichkeit stets im Mittelpunkt steht. Mit modernsten Techniken stelle ich sicher, dass dein Permanent Make-up harmonisch, dezent und perfekt auf dich abgestimmt ist – so natürlich, dass es kaum auffällt. Ich freue mich darauf, dich auf deinem Weg zu einem strahlenden, natürlichen Look begleiten zu dürfen!
+            Ich biete professionelle Behandlungen für Augenbrauen, Augen und Lippen an, bei denen Natürlichkeit stets im Mittelpunkt steht. Mit modernsten Techniken stelle ich sicher, dass dein Permanent Make-up harmonisch, dezent und perfekt auf dich abgestimmt ist – so natürlich dass es kaum auffällt. Ich freue mich darauf, dich auf deinem Weg zu einem strahlenden, natürlichen Look begleiten zu dürfen!
           </p>
           <p className="mt-2 text-right text-blackC">- Ayhan</p>
         </div>
