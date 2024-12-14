@@ -287,7 +287,7 @@ const Footer = () => {
         ©Ayhan Kublay Permanent Make up |{" "}
         <button
           onClick={handleImpressumClick}
-          className="underline text-blue-600 hover:text-blue-800"
+          className="underline text-softWhiteC hover:text-softWhiteC"
         >
           Impressum
         </button>{" "}
@@ -295,7 +295,7 @@ const Footer = () => {
         
         <button
           onClick={handleDatenschutzClick}
-          className="underline text-blue-600 hover:text-blue-800"
+          className="underline text-softWhiteC hover:text-softWhiteC"
         >
           Datenschutz
         </button>{" "}
